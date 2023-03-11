@@ -493,16 +493,13 @@ background-color: #31D0AA;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  border-right: 1px solid var(--color-footer-text);
-  border-left: 1px solid var(--color-footer-text);
-  /* border-top: none;  */
+  border: 1px solid var(--color-footer-text);
+  border-top: none; 
 }
 .portfolio-item-link {
   display: block;
-  border-bottom: 1px solid var(--color-footer-text);
 }
 
-.portfolio-item-link:hover, .portfolio-item-block:focus {
-  border: 1px solid var(--color-background-light);
+.portfolio-item-link:hover, .portfolio-item-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
